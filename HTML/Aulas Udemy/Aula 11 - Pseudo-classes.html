@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        div form{
+            display: flex;
+            margin-top: 20px;
+        }
+        div form #ibusca{
+            width: 400px;
+            height: 30px;
+        }
+        div form #ibusca:focus{
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            outline: none;
+            border: 1px solid black;
+        }
+        div #icheckbox{
+            width: 50px;
+            height: 50px;
+        }
+        div #icheckbox:checked~p{
+            background-color: aquamarine;
+            width: 100px;
+        }
+        .heading{
+            transition: all 225ms ease-in-out;
+        }
+        .heading:hover{
+            background-color: rgb(233, 68, 233);
+        }
+        a:link{
+            color: deeppink;
+        }
+        a:visited{
+            color: rgb(161, 38, 104);
+        }
+        a:hover{
+            background-color: rgb(255, 96, 239);
+            text-decoration: none;
+            color: white;
+        }
+        a:active{
+            color: white;
+            background-color: rgb(175, 96, 250);
+            text-decoration: none;
+
+        }
+        .first-and-last li:first-child{
+            color: blue;
+        }
+        .first-and-last li:last-child{
+            color: red;
+        }
+        .not p:not(.error){
+            background-color: pink;
+        }
+        #check{
+            width: 50px;
+            height: 50px;
+        }
+        #check:checked+p{
+            background-color: brown;
+        }
+        #check:not(:checked) + p{
+            background-color: yellow;
+        }
+        .conteiner-child ul li:nth-child(even){
+            background-color: aqua;
+            width: 35px;
+        }
+        .conteiner-child ul li:nth-child(odd){
+            background-color: darkorchid;
+            width: 35px;
+        }
+        .conteiner-child ul li:nth-child(5n){
+            background-color: red;
+            width: 35px;
+        }
+        .conteiner-child ul li:nth-child(4n+2){
+            background-color: aquamarine;
+            width: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="ibusca"></label>
+            <input type="search" name="busca" id="ibusca" placeholder="Pesquisar">
+            
+            <button>Buscar</button>
+        </form>
+    </div>
+    <div>
+        <h1 class="heading">Lorem</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi <a href="###">assumenda</a>, porro fuga est atque vero nemo neque similique voluptate? Consequatur <a href="##">doloribus</a> inventore temporibus nobis ullam officia, quos laudantium sunt quasi.</p>
+    </div>
+    <div>
+        <input type="checkbox" id="icheckbox">
+        <p>Sadzin</p>
+        <p>passou por</p>
+        <p>aqui</p>
+    </div>
+    <div>
+        <ul class="first-and-last">
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat enim, voluptatum ipsam eum quisquam, ea repellat minus cumque debitis vel placeat, voluptatibus accusamus excepturi error a? Accusamus at nobis sunt.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nobis dolores ipsa officiis vero vel nostrum maiores fugiat vitae nam, qui, error voluptas sint veniam rerum alias quis quaerat dicta!</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium officia quisquam assumenda eos eveniet autem molestias labore! Aliquid, maiores illo unde, assumenda soluta aspernatur eum iste, at voluptatum ipsum voluptatibus.]</li>
+        </ul>
+    </div>
+    <div class="not">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia quod non praesentium sunt esse adipisci quia animi beatae delectus eos ut eveniet autem quisquam, veritatis aliquid quos. Reiciendis, maiores repellat!</p>
+        <p class="error">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia quod non praesentium sunt esse adipisci quia animi beatae delectus eos ut eveniet autem quisquam, veritatis aliquid quos. Reiciendis, maiores repellat!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia quod non praesentium sunt esse adipisci quia animi beatae delectus eos ut eveniet autem quisquam, veritatis aliquid quos. Reiciendis, maiores repellat!</p>
+    </div>
+    <input type="checkbox" id="check">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero ab, neque fugiat veniam voluptate perferendis optio unde commodi corrupti dolorum pariatur assumenda officia possimus natus accusamus qui fuga totam!</p>
+    <div class="conteiner-child">
+        <ul>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>Teste</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidade CSS</title>
+    <style>
+        /*ID classes, atributos e pseudo-classes    Elementos e pseudo-elementos
+            1           0                               0          
+        */
+        #paragrafo{
+            background-color: blueviolet;
+        }
+        /*ID classes, atributos e pseudo-classes    Elementos e pseudo-elementos
+            0           1                               0          
+        */
+        .paragrafo-1{
+            background-color: aquamarine;
+        }
+        
+        /*ID classes, atributos e pseudo-classes    Elementos e pseudo-elementos
+            1           1                               0          
+        */
+        #paragrafo-02.paragrafo-03{
+            background-color: blue;
+        }
+        #paragrafo-02{
+            background-color: brown;
+        }
+        /*ID classes, atributos e pseudo-classes    Elementos e pseudo-elementos
+            1           0                               1          
+        */
+        p#paragrafo-02{
+            background-color: chartreuse !important;
+        }
+        
+        /*ID classes, atributos e pseudo-classes    Elementos e pseudo-elementos
+            1           1                               1          
+        */
+        p#paragrafo-02.paragrafo-03{
+            background: red;
+        }
+        /*ID classes, atributos e pseudo-classes    Elementos e pseudo-elementos
+            2           1                               2          
+        */
+        body #test p#example01.example02{
+            background-color: coral;
+        }
+        body #test p#lasttest.lasttest-01{
+            background-color: chocolate;
+        }
+        
+        </style>
+</head>
+<body>
+    <div id="test">
+        <p id="paragrafo" class="paragrafo-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea esse cum quas corrupti nihil placeat molestiae pariatur doloremque? Maiores sint quis inventore, iusto repellat illo. Distinctio voluptatum nam cum est.</p>
+        
+        <p id="paragrafo-02" class="paragrafo-03">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempore autem quas! Natus, adipisci soluta! Possimus repellat totam non impedit velit ad tempore excepturi atque modi cumque! Ullam, quis illo?</p>
+        
+        <p id="example01" class="example02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptas est molestiae minima fuga quod iusto provident eum! Alias nostrum suscipit repudiandae eum cumque quos facilis voluptates inventore quaerat aperiam.</p>
+        
+        
+        <!--Style ID classes, atributos e pseudo-classes    Elementos e pseudo-elementos
+              1      0           0                               0          
+        -->
+        <p id="lasttest" class="lasttest-01" style="background-color: lightpink;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam aspernatur architecto at aperiam eaque quos neque, nostrum aliquam incidunt animi atque beatae amet ullam pariatur inventore voluptates quidem voluptatibus!</p>
+    </div>
+</body>
+</html>

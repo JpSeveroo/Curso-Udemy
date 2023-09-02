@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang = "pt-BR">
+    <head>
+        <meta charset = "utf-8">
+        <title>Aula 03 HTML</title>
+        <meta name = "viewport" content = "width-device-width, initial-scale = 1.0">
+        <style>
+            .cristiano-ronaldo{
+                height:300px;
+                width:200px;
+            }
+            .mdn-logo{
+                width:50px;
+                height: 50px;
+            }
+            .exemplo-div{
+                font-size: 20px;
+                color: red
+            }
+        </style>
+    </head>
+    <body>
+        <h1>SIUUU</h1>
+        <hr>
+        <p>
+            A tag "bold" serve unicamente pra deixar um texto em <b>negrito</b>. 
+            Já a tag "strong" faz o mesmo, mas com um sentido mais <strong>lógico</strong><br>
+            Enquanto isso, temos um caso semelhante utilizando a tag "i", para deixar algo fisicamente 
+            em <i>itálico</i>, mas a tag "em", tem a mesma funcionalidade mas é utilizado para dar <em>ênfase</em>. 
+        </p>
+        <hr>
+        <p>
+            <img class="cristiano-ronaldo" src = "https://images3.memedroid.com/images/UPLOADED88/6319138cd279e.jpeg" alt="siuuu">
+        </p>
+        <p>
+            <a href = "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a" target ='_blank'>Link</a>
+            <a href = "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a" target ='_blank'><img class="mdn-logo" src = "https://seeklogo.com/images/M/mdn-logo-6DB9B0093F-seeklogo.com.png" alt="mdn-logo"></a>
+        </p>
+        <hr>
+        <p>
+            Semelhante aos casos de negritos e itálicos temos as tags a seguir: A tag "del" vai indicar um <del>erro</del> 
+            com valor semântico, enquando a tag "s" fará o mesmo com a palavra mas dessa vez tem um valor <s>físico</s>. 
+            Outros casos temos com as tags "ins" e "u", as quais fazem a mesma coisa, porém a tag "ins" tem valor <ins>sintático</ins> 
+            enquanto a tag "u" tem valor <u>físico</u>.
+        </p>
+        <hr>
+        <h2>Outras tags em HTML</h2>
+        <p>
+            Em texto <small>pequeno</small> utiliza-se a tag "small", para deixar algo <sup>elevado</sup> utilizamos "sup", para deixar 
+            uma palavra na parte <sub>inferior</sub> utiliza-se "sub", pra fazermos uma <q>citação</q> usamos "q", e por ultimo temos a tag "code"
+            para indicar um <code>código</code>
+            </p>
+            <hr>
+            <h3>Tags de blocos</h3>
+            <p>
+            Tags de blocos não entram dentro de parágrafos como a tag "hr" que é similar a tag "br", a tag "blockquot" a qual
+            </p>
+            <blockquote cite = "https://querobolsa.com.br/revista/13-citacoes-para-usar-em-qualquer-tema-de-redacao"> Faz um bloco de citação </blockquote>
+            <hr>
+            <p>
+                Geralmente utilizamos a tag de bloco "pre" em conjunto com a tag "code" para termos um código já formatado como em:
+            </p>
+            <pre><code>let Perfil = ['Usuário: João Pedro', 'Nick: ySadzin', 'Idade: 16', 'País: Brasil', 'UF: PE'];
+let Informações = ['Horas de Jogo: 16777', 'Solicitações de Amizade: 622', 'Nível: 999'];
+console.log(Perfil,Informações);
+
+let Obstinado = true;
+let Mestre = true;
+let Nerd = true;
+let Global = true;
+const Conquistas = {
+    Obstinado: true,
+    Mestre: true,
+    Nerd: true,
+    Glogal: true
+};
+console.log(Conquistas);
+            </code>
+            </pre>
+            <h4>
+                Últimas tags:
+            </h4>
+            <p>
+                Por últimos teremos as tags "span" e "div", as duas servem como conteiners genericos, a diferença é que a tag de span é inline, podendo
+                ser utilizadas dentro de parágrafos diferente da tag div que é um bloco.
+            </p>
+            <div class = "exemplo-div"> Lorem </div> ipsum dolor, sit amet consectetur adipisicing elit. Commodi vero,
+                 nihil aliquid fugiat voluptatem consequatur hic doloribus recusandae accusamus itaque repellat atque, 
+                provident sapiente vel quo eveniet sed. Quibusdam, dolorum?
+        </body>
+        </html>

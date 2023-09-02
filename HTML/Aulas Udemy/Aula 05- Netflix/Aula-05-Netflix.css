@@ -1,0 +1,88 @@
+body {
+    background-image: url(Aula-05-Background-Netflix.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .logo-netflix {
+    height: 40px;
+    width: 148px;
+    padding-left: 150px;
+    margin: 15px;
+  }
+  .buttom{
+    padding-left: 1000px;
+  }
+  .botao-entrar {
+    font-weight: 500;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 14px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .menu-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-container > * {
+    margin-right: 10px;
+  }
+  
+.titulo-1{
+    margin:0px;
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 900;    
+    font-size: 48px;
+    text-align: center;
+    padding-top: 170px;
+    color:white
+}
+.subtitulo{
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 500px;
+    color:white
+}
+.subtitulo-2{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 420px;
+    color:white
+}
+#Acesso{
+    padding-left: 440px;
+}
+
+#email{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 35%;
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    line-height: 1.5rem;
+    color: white;
+    padding: 1.4rem 1rem 0.5rem;
+    font-size: 100%;
+}
+#enviar{
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    width: 172px;
+    height: 58px;
+    line-height: 24px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    margin-left: 0.5rem;
+    margin-top: 0;
+    padding: 0.75rem 1.5rem;
+    border-color: black;
+    background-color: rgb(229, 9, 20);
+    color: white;
+}

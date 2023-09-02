@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(253, 235, 248);
+}
+.Titulo-Mestre{
+    background-color: black;
+    color:white;
+    position: fixed;
+    top:5px;
+    left:20px;
+}
+.container{
+    background-color: pink;
+    border-left: 5px rgb(255, 2, 133) solid;
+    width: 900px;
+    position:relative;
+    left:100px;
+    top: 60px;
+}
+.titulos{
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    padding-left: 25px;
+}
+.paragrafos{
+    background-color: rgb(237, 170, 237);
+    margin-top: 0px;
+    font-style: italic;
+    padding-left: 10px
+}

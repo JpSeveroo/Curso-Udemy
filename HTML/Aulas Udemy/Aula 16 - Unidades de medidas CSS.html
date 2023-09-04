@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de medidas CSS</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        html{
+            font-size: 62.5%;/*10 px, pois 100% da font size é igual a 16px. Portanto 62,5 = 10px*/
+            scroll-behavior: smooth; /*Animação do scroll ao mover a tela.*/
+        }
+
+        .paragrafo-html{
+            font-size: 2.5rem;/*2.5 x 10 pixels =25 pixels*/
+            color: rgb(10, 91, 64);
+        }
+
+        .conteiner-1{
+            font-size: 50px;
+        }
+        .conteiner-1 p{
+            font-size: 0.5em;
+            color: red;
+        }
+        .conteiner-2{
+            width: 100vw;
+            height: 100vh;
+            background-color: yellow;
+        }
+        .conteiner-2 p{
+            font-size: 2.5rem;
+
+        }
+        .conteiner-3{
+            height:100vh;
+            background-color: blueviolet;
+            width: 100vw;
+        }
+        .conteiner-3 p{
+            font-size: 2.5rem;
+        }
+        .conteiner-4{
+            background-color: aquamarine;
+            height: 100vh;
+            width: 100vw;
+        }
+        .conteiner-4 p{
+            font-size: 2.5rem;
+        }
+        .links{
+            font-size: 3rem;
+            background-color: crimson;
+        }
+        .links a{
+            color: white;
+            text-decoration: none;
+        }
+        .links a:hover{
+            background-color: aqua;
+        }
+        .conteiner-5{
+            font-size: 50px;
+        }
+        .conteiner-5 p{
+            font-size: 50%;
+            color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <!--Links âncoras-->
+    <div class="links">
+        <a href="#one">One</a>
+        <a href="#two">Two</a>
+        <a href="#three">Three</a>
+    </div>
+<br>
+    <div class="conteiner-1">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur modi odio aliquam dignissimos suscipit ab velit doloribus voluptates, impedit necessitatibus aliquid blanditiis laboriosam! Fugit similique ipsum qui quam ab in?</p>
+    </div>
+<br>
+    <p class="paragrafo-html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus suscipit voluptatibus minus aperiam facere libero sint iusto. Veniam voluptatum minus maxime aspernatur neque eum nam ullam obcaecati. Natus, blanditiis.</p>
+<br>
+    <div class="conteiner-5">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet consequuntur laborum quaerat natus magnam quibusdam voluptatem dolore provident, maxime dolorem, aliquam ab vitae ipsum, at quisquam dignissimos officia explicabo quos.</p>
+    </div>
+<br>
+    <div class="conteiner-2" id="one">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat ipsam reprehenderit amet animi quia! Commodi repellendus modi quia libero vel ipsa nam quibusdam voluptas magni doloribus? Temporibus, odio labore.</p>
+    </div>
+
+    <div class="conteiner-3" id="two">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus dicta maiores voluptas magnam obcaecati, incidunt accusamus rem sapiente necessitatibus illum neque. Distinctio, corrupti numquam sint velit earum explicabo? Aliquam?</p>
+    </div>
+
+    <div class="conteiner-4" id="three">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus dicta maiores voluptas magnam obcaecati, incidunt accusamus rem sapiente necessitatibus illum neque. Distinctio, corrupti numquam sint velit earum explicabo? Aliquam?</p>
+    </div>
+
+</body>
+</html>

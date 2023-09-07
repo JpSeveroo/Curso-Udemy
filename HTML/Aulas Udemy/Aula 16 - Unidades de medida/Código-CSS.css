@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+  }
+    html{
+        scroll-behavior: smooth;
+    }
+    .conteiner{
+      height: 70px;
+      width: 100%;
+      background-color:#ECD444;
+      align-items: center;
+      position: fixed;
+    }
+    .menu{
+      display: flex;
+      list-style: none;
+    }
+    .menu li a{
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black;
+      padding: 24px;
+      padding-left: 30px;
+      display: block;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .menu a:hover{
+    background-color: #C6AC33;
+    transition: all 200ms ease-in-out;
+    }
+    .conteiner-1{
+      background-color:#808080;
+      height:100px;
+      display: flex;
+      align-items: center;
+    }
+    .conteiner-1 p{
+      margin-top: 70px;
+    }
+    .conteiner-1 p a{
+      text-decoration: none;
+      padding: 4px;
+      padding-left: 45px;
+      padding-right: 45px;
+      color: white;
+      display: block;
+      text-transform: uppercase;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .conteiner-1 p a:hover{
+      transition: all 200ms ease-in-out;
+      background-color:rgb(166, 161, 161);
+    }
+    .p1{
+      background-color:#000000;
+      height:100vh;
+      color:white;
+    }
+    div img{
+        height: 700px;
+        width: 700px;
+        float: right;
+        filter: brightness(0.4);
+    }
+    .p2{
+      background-color:#6E2594;
+      height:100vh;
+    }
+    .p3{
+      background-color:#FFFFFF;
+      height:100vh;
+    }
+    .p4{
+      background-color:#6E2594;
+      height: 100vh;
+    }
+

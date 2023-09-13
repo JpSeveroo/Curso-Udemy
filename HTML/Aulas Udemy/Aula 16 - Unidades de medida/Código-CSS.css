@@ -5,18 +5,26 @@
     html{
         scroll-behavior: smooth;
     }
+    .iLogo-TechVanguard{
+      height: 60px;
+      width: 60px;
+      float: right;
+      margin-right: 30px;
+      margin-top: 3px;
+      filter: brightness(0.4)
+    }
     .conteiner{
-      height: 70px;
+      height: 71px;
       width: 100%;
       background-color:#ECD444;
       align-items: center;
       position: fixed;
     }
-    .menu{
+    .conteiner-menu{
       display: flex;
       list-style: none;
     }
-    .menu li a{
+    .conteiner-menu li a{
       text-transform: uppercase;
       text-decoration: none;
       color: black;
@@ -25,20 +33,20 @@
       display: block;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .menu a:hover{
+    .conteiner-menu a:hover{
     background-color: #C6AC33;
     transition: all 200ms ease-in-out;
     }
-    .conteiner-1{
+    .Menu-nav{
       background-color:#808080;
-      height:100px;
+      height: 100px;
       display: flex;
       align-items: center;
     }
-    .conteiner-1 p{
+    .Menu-nav p{
       margin-top: 70px;
     }
-    .conteiner-1 p a{
+    .Menu-nav p a{
       text-decoration: none;
       padding: 4px;
       padding-left: 45px;
@@ -48,46 +56,46 @@
       text-transform: uppercase;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .conteiner-1 p a:hover{
+    .Menu-nav p a:hover{
       transition: all 200ms ease-in-out;
       background-color:rgb(166, 161, 161);
     }
-    .p1{
+    .Features{
       background-color:black;
-      height:100vh;
+      height: 100vh;
       color: white;
       text-align: left;
       text-indent: 15px;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-size: 15px;
     }
-    .text-p1{
-      width: 900px;
-      height: 600px;
+    .Features img{
+      height: 550px;
+      width: auto;
+      float: right;
+      filter: brightness(0.4);
+  }
+    .text-Features ol {
+      padding-left: 20px; 
+      list-style-position: inside; 
     }
-    div img{
-        height: 550px;
-        width: auto;
-        float: right;
-        filter: brightness(0.4);
-    }
-    .p2{
-      background-color:#6E2594;
-      height:100vh;
-      color: #FFFFFF;
-    }
-    .p3{
-      background-color:#FFFFFF;
-      height:100vh;
-    }
-    .p4{
-      background-color:#6E2594;
-      height: 100vh;
-    }
-    #iadquirir{
-      width:220px;
+    #iconfira{
+      width: 220px;
       height: 70px;
       background-color:#ECD444;
       margin-left: 1150px;
       margin-bottom: 20px;
+    }
+    .p2{
+      background-color:#6E2594;
+      height: 100vh;
+      color: #FFFFFF;
+    }
+    .p3{
+      background-color:#FFFFFF;
+      height: 100vh;
+    }
+    .p4{
+      background-color:#6E2594;
+      height: 100vh;
     }

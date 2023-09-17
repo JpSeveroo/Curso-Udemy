@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Aula 18 - Position</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html {
+        height: 300vh;
+      }
+      .filha-1,
+      .filha-2,
+      .filha-3 {
+        width: 200px;
+        height: 200px;
+      }
+      .filha-1 {
+        background-color: greenyellow;
+        position: static;
+        left: 50px;
+        float: left;
+      }
+      .filha-2 {
+        background-color: red;
+        position: absolute;
+        z-index: 2;
+        left: 40px;
+        top: 160px;
+      }
+      .filha-3 {
+        background-color: blue;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        z-index: 1;
+      }
+      ul {
+        height: 100px;
+        overflow-y: auto;
+      }
+      ul .sticky {
+        background-color: aquamarine;
+        position: sticky;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li class="sticky">A</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li class="sticky">B</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li class="sticky">C</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+      <li>a</li>
+    </ul>
+    <div class="filha-1"></div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus
+      magnam quae nesciunt non optio soluta aut cumque delectus! Odit
+      dignissimos voluptatibus eos doloremque earum numquam asperiores qui
+      repellat ab.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus
+      magnam quae nesciunt non optio soluta aut cumque delectus! Odit
+      dignissimos voluptatibus eos doloremque earum numquam asperiores qui
+      repellat ab.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus
+      magnam quae nesciunt non optio soluta aut cumque delectus! Odit
+      dignissimos voluptatibus eos doloremque earum numquam asperiores qui
+      repellat ab.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus
+      magnam quae nesciunt non optio soluta aut cumque delectus! Odit
+      dignissimos voluptatibus eos doloremque earum numquam asperiores qui
+      repellat ab.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus
+      magnam quae nesciunt non optio soluta aut cumque delectus! Odit
+      dignissimos voluptatibus eos doloremque earum numquam asperiores qui
+      repellat ab.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus
+      magnam quae nesciunt non optio soluta aut cumque delectus! Odit
+      dignissimos voluptatibus eos doloremque earum numquam asperiores qui
+      repellat ab.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus
+      magnam quae nesciunt non optio soluta aut cumque delectus! Odit
+      dignissimos voluptatibus eos doloremque earum numquam asperiores qui
+      repellat ab.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus
+      magnam quae nesciunt non optio soluta aut cumque delectus! Odit
+      dignissimos voluptatibus eos doloremque earum numquam asperiores qui
+      repellat ab.
+    </p>
+    <div class="filha-2"></div>
+    <div class="filha-3"></div>
+  </body>
+</html>

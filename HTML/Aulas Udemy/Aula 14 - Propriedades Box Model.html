@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Propriedades de Box Model</title>
     <style>
-        .texto{
-            /*Ao atribuir a característica de "display-block" a uma div, ela irá aceitar qualquer coisa destinada a ela e ocupará a largura diponível.*/
-            display: block;
-            background-color: rgb(162, 9, 209);
-            height: 30%;
-            width: 80%;
-            /*As propriedades de "máx." ou "min" que são atreladas a altura ou largura de um elemento, podem ser utilizadas para designar a altura e/ou largura máxima e/ou mínima do elemento. Sendo assim caso eu adicione uma largura maior que a largura máxima antes designada, a largura atribuída será apenas a máxima e não ultrapassará.*/
-            max-width: 900px;
-            max-height: 900px;
-            /*Caso haja um caso que o conteúdo de dentro da div acabe ultrapassando-a, podemos atribuir características para que ele se mantenha dentro da div utilizando a tag "overflow". A tag "overflow-hidden" vai meio que esconder o conteúdo que passou pra fora da div.*/
-            overflow: auto;
-            /*Podemos mexer com a tag overflow utilizando a mesma de forma geral ou designando seu eixo, como: overflow-y ou overflow-x.*/
-            height: 200px;
-            /*Pode haver uma centralização da div no meio da página caso haja necessidade utilizando apenas a tag de margem para deixar a esquerda e direita no automático.*/
-            margin: 0 auto;
-            margin-top: 40px;
-            padding: 20px;
-            /*Ao utilizarmos o "box-sizing: content-box;" as dimensões do elemento serão calculdas assim: width + padding + border= tamanho do elemento. Já quando utilizamos "box-sizing: border-box;" Isso significará que o tamanho total do elemento será exatamente o especificado, e as bordas e o preenchimento serão retirados do espaço interno do elemento.*/
-            box-sizing: border-box;
-            border: 5px double black;
-        }
-
+      .texto {
+        /*Ao atribuir a característica de "display-block" a uma div, ela irá aceitar qualquer coisa destinada a ela e ocupará a largura diponível.*/
+        display: block;
+        background-color: rgb(162, 9, 209);
+        height: 30%;
+        width: 80%;
+        /*As propriedades de "máx." ou "min" que são atreladas a altura ou largura de um elemento, podem ser utilizadas para designar a altura e/ou largura máxima e/ou mínima do elemento. Sendo assim caso eu adicione uma largura maior que a largura máxima antes designada, a largura atribuída será apenas a máxima e não ultrapassará.*/
+        max-width: 900px;
+        max-height: 900px;
+        /*Caso haja um caso que o conteúdo de dentro da div acabe ultrapassando-a, podemos atribuir características para que ele se mantenha dentro da div utilizando a tag "overflow". A tag "overflow-hidden" vai meio que esconder o conteúdo que passou pra fora da div.*/
+        overflow: auto;
+        /*Podemos mexer com a tag overflow utilizando a mesma de forma geral ou designando seu eixo, como: overflow-y ou overflow-x.*/
+        height: 200px;
+        /*Pode haver uma centralização da div no meio da página caso haja necessidade utilizando apenas a tag de margem para deixar a esquerda e direita no automático.*/
+        margin: 0 auto;
+        margin-top: 40px;
+        padding: 20px;
+        /*Ao utilizarmos o "box-sizing: content-box;" as dimensões do elemento serão calculdas assim: width + padding + border= tamanho do elemento. Já quando utilizamos "box-sizing: border-box;" Isso significará que o tamanho total do elemento será exatamente o especificado, e as bordas e o preenchimento serão retirados do espaço interno do elemento.*/
+        box-sizing: border-box;
+        border: 5px double black;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="texto">
-        <h1>Lorem</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus id voluptate eius ab eveniet ipsum, earum cum necessitatibus amet reprehenderit debitis eligendi labore repudiandae? Tempora quibusdam dolorum nemo dolores doloremque!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione molestiae, obcaecati quidem earum consectetur odit facilis incidunt similique esse alias unde, rem ad porro ipsum optio tenetur veniam natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas pariatur nulla ex dicta suscipit, enim molestiae laudantium et quae praesentium ut libero, fugiat inventore officiis atque? Quidem magnam provident harum?
-        </p>
+      <h1>Lorem</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus id
+        voluptate eius ab eveniet ipsum, earum cum necessitatibus amet
+        reprehenderit debitis eligendi labore repudiandae? Tempora quibusdam
+        dolorum nemo dolores doloremque!Lorem Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Maiores ratione molestiae, obcaecati
+        quidem earum consectetur odit facilis incidunt similique esse alias
+        unde, rem ad porro ipsum optio tenetur veniam natus! Lorem ipsum dolor
+        sit amet consectetur, adipisicing elit. Quas pariatur nulla ex dicta
+        suscipit, enim molestiae laudantium et quae praesentium ut libero,
+        fugiat inventore officiis atque? Quidem magnam provident harum?
+      </p>
     </div>
-</body>
+  </body>
 </html>

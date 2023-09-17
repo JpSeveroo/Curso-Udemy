@@ -1,54 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Pseudo Elements</title>
     <style>
-
-        div p{
-            font-size: 24px;
-        }
-        #itest::placeholder{
-            font-style: italic;
-        }
-        p::first-letter{
-            font-size: 100px;
-            display: block;
-            margin: 0 15px 15px 0;
-            float: left;
-        }
-        p::first-line{
-            background-color: plum;
-        }
-        p::selection{
-            background-color: black;
-            color: white;
-        }
-        ul li{
-            font-size: 24px;
-            font-weight: bold;
-        }
-        ul li::after{
-            content: '-';
-        }
-        ul li::before{
-            content: '*';
-        }
-
+      div p {
+        font-size: 24px;
+      }
+      #itest::placeholder {
+        font-style: italic;
+      }
+      p::first-letter {
+        font-size: 100px;
+        display: block;
+        margin: 0 15px 15px 0;
+        float: left;
+      }
+      p::first-line {
+        background-color: plum;
+      }
+      p::selection {
+        background-color: black;
+        color: white;
+      }
+      ul li {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      ul li::after {
+        content: "-";
+      }
+      ul li::before {
+        content: "*";
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        <input type="text" id="itest" name="test" placeholder="Example:">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus expedita voluptates, molestias, magnam voluptatibus, corrupti non odio eligendi tenetur totam quasi quas autem suscipit quam placeat doloribus iste. Labore, non?Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sapiente fuga dolorum rerum saepe eum. Nobis laborum, quaerat neque necessitatibus aliquid aut alias eaque nam. Fuga dicta officia cum Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illo hic animi numquam tempora magnam culpa inventore ut vero. Id quos sint eum illo saepe qui error voluptatibus. Debitis, itaque?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, molestiae numquam ea odio non, beatae accusantium quibusdam sit ullam facilis aspernatur iusto quae minima mollitia blanditiis expedita accusamus distinctio! Cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores labore, nobis temporibus minus laudantium tenetur explicabo, molestias natus non quod dolores vitae doloribus aliquam! Aliquid dolorum doloremque vero inventore molestias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quia vitae dolores nesciunt nemo, odio aut corrupti reprehenderit, quisquam harum reiciendis. Pariatur a eligendi laboriosam maiores, doloribus consectetur quisquam eius?</p>
-        <ul>
-            <li>Item</li>
-            <li>Item</li>
-            <li>Item</li>
-            <li>Item</li>
-            <li>Item</li>
-        </ul>
+      <input type="text" id="itest" name="test" placeholder="Example:" />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+        expedita voluptates, molestias, magnam voluptatibus, corrupti non odio
+        eligendi tenetur totam quasi quas autem suscipit quam placeat doloribus
+        iste. Labore, non?Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Animi, sapiente fuga dolorum rerum saepe eum. Nobis laborum,
+        quaerat neque necessitatibus aliquid aut alias eaque nam. Fuga dicta
+        officia cum Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Magni illo hic animi numquam tempora magnam culpa inventore ut vero. Id
+        quos sint eum illo saepe qui error voluptatibus. Debitis, itaque?Lorem
+        ipsum dolor sit amet, consectetur adipisicing elit. Maxime, molestiae
+        numquam ea odio non, beatae accusantium quibusdam sit ullam facilis
+        aspernatur iusto quae minima mollitia blanditiis expedita accusamus
+        distinctio! Cupiditate. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Asperiores labore, nobis temporibus minus laudantium
+        tenetur explicabo, molestias natus non quod dolores vitae doloribus
+        aliquam! Aliquid dolorum doloremque vero inventore molestias. Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Facilis quia vitae
+        dolores nesciunt nemo, odio aut corrupti reprehenderit, quisquam harum
+        reiciendis. Pariatur a eligendi laboriosam maiores, doloribus
+        consectetur quisquam eius?
+      </p>
+      <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+      </ul>
     </div>
-</body>
+  </body>
 </html>

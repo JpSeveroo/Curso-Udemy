@@ -1,123 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Aula 08 - Tabela</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            background-color: rgba(210, 143, 255, 0.484);
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgba(210, 143, 255, 0.484);
+      }
 
-        header h1{
-            margin: 20px;
-        }
-        article p{
-            margin-left: 15px;
-            font-size: larger;
-        }
+      header h1 {
+        margin: 20px;
+      }
+      article p {
+        margin-left: 15px;
+        font-size: larger;
+      }
 
-        article div table {
-            margin-top: 20px;
-            width: 100%;
-            height: 350px;
-            border-collapse: collapse;
-        }
-        .caption{
-            margin-left: 20px;
-            margin-top:15px;
-            caption-side: bottom;
-            font-style: italic;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            text-align: left;
-            font-size: 14px;
-            width: 30%;
-        }
-        article div table thead tr th {
-            border: 1px solid #ccc;
-            margin: 20px;
-            padding: 20px;
-            text-transform: uppercase;
-            background-color: rgba(169, 19, 169, 0.367)
-        }
+      article div table {
+        margin-top: 20px;
+        width: 100%;
+        height: 350px;
+        border-collapse: collapse;
+      }
+      .caption {
+        margin-left: 20px;
+        margin-top: 15px;
+        caption-side: bottom;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: left;
+        font-size: 14px;
+        width: 30%;
+      }
+      article div table thead tr th {
+        border: 1px solid #ccc;
+        margin: 20px;
+        padding: 20px;
+        text-transform: uppercase;
+        background-color: rgba(169, 19, 169, 0.367);
+      }
 
-        article div table tbody tr td{
-            border:1px solid #ccc;
-            text-align: center;
-            background-color: rgb(236, 125, 255);
-        }
+      article div table tbody tr td {
+        border: 1px solid #ccc;
+        text-align: center;
+        background-color: rgb(236, 125, 255);
+      }
 
-        article div table tfoot tr td {
-            border: 1px solid #ccc;
-            margin: 20px;
-            padding: 20px;
-            text-align: center;
-            background-color: rgba(169, 19, 169, 0.367)
-        }
-        
-        </style>
-</head>
-<body>
+      article div table tfoot tr td {
+        border: 1px solid #ccc;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(169, 19, 169, 0.367);
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <h1>
-            TABELA
-        </h1>
+      <h1>TABELA</h1>
     </header>
     <article>
-        <p>Aula de hoje iremos aprender sobre a criação de tabelas.</p>
-        <div>
-            <table>
-                <caption class="caption">
-                    Há diversas propriedades para a criação de uma tabela, ainda sim, temos que os principais conceitos
-                    são respectivamente: cabeçalho, dados, rodapé, coluna e linha.
-                </caption>
-                <thead>
-                <tr>
-                    <th>Coluna 1</th>
-                    <th>Coluna 2</th>
-                    <th>Coluna 3</th>
-                    <th>Coluna 4</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Conteúdo 1</td>
-                    <td>Conteúdo 2</td>
-                    <td>Conteúdo 3</td>
-                    <td>Conteúdo 4</td>
-                </tr>
-                <tr>
-                    <td>Conteúdo 1</td>
-                    <td>Conteúdo 2</td>
-                    <td>Conteúdo 3</td>
-                    <td>Conteúdo 4</td>
-                </tr>
-                <tr>
-                    <td>Conteúdo 1</td>
-                    <td>Conteúdo 2</td>
-                    <td>Conteúdo 3</td>
-                    <td>Conteúdo 4</td>
-                </tr>
-                <tr>
-                    <td>Conteúdo 1</td>
-                    <td>Conteúdo 2</td>
-                    <td>Conteúdo 3</td>
-                    <td>Conteúdo 4</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="3">Rodapé 1</td>
-                    <td>Rodapé 4</td>
-                </tr>
-            </tfoot>
+      <p>Aula de hoje iremos aprender sobre a criação de tabelas.</p>
+      <div>
+        <table>
+          <caption class="caption">
+            Há diversas propriedades para a criação de uma tabela, ainda sim,
+            temos que os principais conceitos são respectivamente: cabeçalho,
+            dados, rodapé, coluna e linha.
+          </caption>
+          <thead>
+            <tr>
+              <th>Coluna 1</th>
+              <th>Coluna 2</th>
+              <th>Coluna 3</th>
+              <th>Coluna 4</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Conteúdo 1</td>
+              <td>Conteúdo 2</td>
+              <td>Conteúdo 3</td>
+              <td>Conteúdo 4</td>
+            </tr>
+            <tr>
+              <td>Conteúdo 1</td>
+              <td>Conteúdo 2</td>
+              <td>Conteúdo 3</td>
+              <td>Conteúdo 4</td>
+            </tr>
+            <tr>
+              <td>Conteúdo 1</td>
+              <td>Conteúdo 2</td>
+              <td>Conteúdo 3</td>
+              <td>Conteúdo 4</td>
+            </tr>
+            <tr>
+              <td>Conteúdo 1</td>
+              <td>Conteúdo 2</td>
+              <td>Conteúdo 3</td>
+              <td>Conteúdo 4</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Rodapé 1</td>
+              <td>Rodapé 4</td>
+            </tr>
+          </tfoot>
         </table>
-    </div>
+      </div>
     </article>
-</body>
+  </body>
 </html>

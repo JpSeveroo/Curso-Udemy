@@ -1,103 +1,186 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Seletores de CSS</title>
     <style>
-        body .conteiner .title{
-            color: blue;
-        }
-        body .conteiner .seção h1{
-            color: pink;
-        }
-        .conteiner-test{
-            color: red;
-        }
-        .conteiner-test-2 {
-            color: rebeccapurple;
-            color: initial;
-        }
-        .conteiner > section > .heading{
-            color: chartreuse;
-        }
-        .pai h1~p{
-            color: blue;
-        }
-        [meu-atributo]{
-            color: green;
-        }
-        [atributo="valor"]{
-            color: purple;
-        }
-        [checked]{
-            width: 50px;
-            height: 50px;
-        }
-        [atributo~="valor-3"]{
-            color: blue;
-        }
-        [atributo^="começa"]{
-            color: aquamarine;
-        }
-        [atributo$="od"]{
-            color:yellow;
-        }
-        [atributo*= "ont"]{
-            color: brown;
-        }
+      body .conteiner .title {
+        color: blue;
+      }
+      body .conteiner .seção h1 {
+        color: pink;
+      }
+      .conteiner-test {
+        color: red;
+      }
+      .conteiner-test-2 {
+        color: rebeccapurple;
+        color: initial;
+      }
+      .conteiner > section > .heading {
+        color: chartreuse;
+      }
+      .pai h1 ~ p {
+        color: blue;
+      }
+      [meu-atributo] {
+        color: green;
+      }
+      [atributo="valor"] {
+        color: purple;
+      }
+      [checked] {
+        width: 50px;
+        height: 50px;
+      }
+      [atributo~="valor-3"] {
+        color: blue;
+      }
+      [atributo^="começa"] {
+        color: aquamarine;
+      }
+      [atributo$="od"] {
+        color: yellow;
+      }
+      [atributo*="ont"] {
+        color: brown;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="conteiner">
-        <h1 class="title">Lorem</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, similique est! Magni nesciunt quis atque doloribus eos autem temporibus incidunt dignissimos pariatur quaerat repellat, qui corporis voluptates doloremque blanditiis rem!</p>
+      <h1 class="title">Lorem</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+        similique est! Magni nesciunt quis atque doloribus eos autem temporibus
+        incidunt dignissimos pariatur quaerat repellat, qui corporis voluptates
+        doloremque blanditiis rem!
+      </p>
     </div>
     <div class="conteiner">
-        <section class="seção">
-            <h1>Lorem</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora necessitatibus impedit odit nostrum enim molestiae quos sequi voluptatem eum aperiam libero quas explicabo deleniti sunt fugiat, expedita optio autem.</p>
-        </section>
+      <section class="seção">
+        <h1>Lorem</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora
+          necessitatibus impedit odit nostrum enim molestiae quos sequi
+          voluptatem eum aperiam libero quas explicabo deleniti sunt fugiat,
+          expedita optio autem.
+        </p>
+      </section>
     </div>
     <div class="conteiner-test">
-        <h1>Lorem</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime hic quo aut suscipit sequi earum quia? Labore distinctio quo dolorum? Rem commodi porro doloribus ullam dolore ea modi molestias quam.</p>
+      <h1>Lorem</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime hic quo
+        aut suscipit sequi earum quia? Labore distinctio quo dolorum? Rem
+        commodi porro doloribus ullam dolore ea modi molestias quam.
+      </p>
     </div>
     <div class="conteiner-test-2">
-            <h1>Lorem</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veritatis corporis magni, amet eum iusto est quo illo quia voluptates minima nisi obcaecati molestiae voluptatem quis quas. Corrupti, inventore accusantium!</p>
+      <h1>Lorem</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veritatis
+        corporis magni, amet eum iusto est quo illo quia voluptates minima nisi
+        obcaecati molestiae voluptatem quis quas. Corrupti, inventore
+        accusantium!
+      </p>
     </div>
     <div class="conteiner">
-        <section>
-            <h1 class="heading">Lorem</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quae nisi nesciunt delectus, inventore nam! Quibusdam amet itaque assumenda qui natus, iusto necessitatibus neque deleniti voluptates obcaecati facere autem unde.</p>
-        </section>
-        <section>
-            <h1>Lorem</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis error voluptatibus doloribus dolor soluta accusantium eaque rem, rerum nihil, earum similique reiciendis! Doloremque odio animi unde illum in ex tempore.</p>
-        </section>
+      <section>
+        <h1 class="heading">Lorem</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quae
+          nisi nesciunt delectus, inventore nam! Quibusdam amet itaque assumenda
+          qui natus, iusto necessitatibus neque deleniti voluptates obcaecati
+          facere autem unde.
+        </p>
+      </section>
+      <section>
+        <h1>Lorem</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          error voluptatibus doloribus dolor soluta accusantium eaque rem, rerum
+          nihil, earum similique reiciendis! Doloremque odio animi unde illum in
+          ex tempore.
+        </p>
+      </section>
     </div>
     <div class="pai">
-        <h1>Seletores de irmão</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta porro et incidunt optio aspernatur ipsa, repellendus dolorem temporibus voluptates eius reprehenderit dignissimos, labore fuga sequi ullam vitae ea, sed quaerat?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem veniam aspernatur nisi, ipsam obcaecati nihil et! Quo nam porro error! Earum aperiam saepe praesentium. Magnam adipisci molestias harum dolorum sequi?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquid tenetur recusandae, et ea nostrum itaque numquam. Ipsam praesentium asperiores eaque, neque quos quaerat voluptate ut nisi tempora adipisci. Recusandae.</p>
+      <h1>Seletores de irmão</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta porro et
+        incidunt optio aspernatur ipsa, repellendus dolorem temporibus
+        voluptates eius reprehenderit dignissimos, labore fuga sequi ullam vitae
+        ea, sed quaerat?
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem veniam
+        aspernatur nisi, ipsam obcaecati nihil et! Quo nam porro error! Earum
+        aperiam saepe praesentium. Magnam adipisci molestias harum dolorum
+        sequi?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquid
+        tenetur recusandae, et ea nostrum itaque numquam. Ipsam praesentium
+        asperiores eaque, neque quos quaerat voluptate ut nisi tempora adipisci.
+        Recusandae.
+      </p>
 
-        <h1>Seletores de irmão</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta porro et incidunt optio aspernatur ipsa, repellendus dolorem temporibus voluptates eius reprehenderit dignissimos, labore fuga sequi ullam vitae ea, sed quaerat?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem veniam aspernatur nisi, ipsam obcaecati nihil et! Quo nam porro error! Earum aperiam saepe praesentium. Magnam adipisci molestias harum dolorum sequi?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquid tenetur recusandae, et ea nostrum itaque numquam. Ipsam praesentium asperiores eaque, neque quos quaerat voluptate ut nisi tempora adipisci. Recusandae.</p>
-        
-        <h1 class="heading" meu-atributo>Lorem</h1>
-        <h2 class="h2" atributo="valor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dicta odit at incidunt commodi labore amet, sunt ipsam facilis dolorum exercitationem nobis provident cumque dolore cupiditate eligendi in! Enim, cumque.</h2>
-        <h2 class="h2" atributo="valor-1 valor-2 valor-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corrupti quae dicta, quis minima dolore debitis ducimus quidem ad, deleniti aut molestias quaerat est iste. Animi delectus sed quidem a.</h2>
-        <h2 class="h2" atributo="começa-com termina-com memama">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi provident aliquid accusantium reiciendis quis assumenda rem suscipit sit doloribus rerum, laudantium officia a quisquam harum non voluptatibus, voluptate itaque? Tempore?</h2>
-        <h2 class="h2" atributo="termina-com pelo amor de God">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quis totam, quisquam sapiente commodi aperiam sequi laboriosam beatae impedit. Fugit laboriosam exercitationem praesentium deleniti porro, ab eaque animi laborum delectus?</h2>
-        <h2 class="h2" atributo="contido sereiva xãpreta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur laudantium repellat quis ipsam. Facilis vitae ex excepturi quod quisquam consequuntur libero obcaecati, modi in eveniet sed repellendus quibusdam voluptatibus dolorum!</h2>
+      <h1>Seletores de irmão</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta porro et
+        incidunt optio aspernatur ipsa, repellendus dolorem temporibus
+        voluptates eius reprehenderit dignissimos, labore fuga sequi ullam vitae
+        ea, sed quaerat?
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem veniam
+        aspernatur nisi, ipsam obcaecati nihil et! Quo nam porro error! Earum
+        aperiam saepe praesentium. Magnam adipisci molestias harum dolorum
+        sequi?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquid
+        tenetur recusandae, et ea nostrum itaque numquam. Ipsam praesentium
+        asperiores eaque, neque quos quaerat voluptate ut nisi tempora adipisci.
+        Recusandae.
+      </p>
+
+      <h1 class="heading" meu-atributo>Lorem</h1>
+      <h2 class="h2" atributo="valor">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        dicta odit at incidunt commodi labore amet, sunt ipsam facilis dolorum
+        exercitationem nobis provident cumque dolore cupiditate eligendi in!
+        Enim, cumque.
+      </h2>
+      <h2 class="h2" atributo="valor-1 valor-2 valor-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corrupti
+        quae dicta, quis minima dolore debitis ducimus quidem ad, deleniti aut
+        molestias quaerat est iste. Animi delectus sed quidem a.
+      </h2>
+      <h2 class="h2" atributo="começa-com termina-com memama">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi provident
+        aliquid accusantium reiciendis quis assumenda rem suscipit sit doloribus
+        rerum, laudantium officia a quisquam harum non voluptatibus, voluptate
+        itaque? Tempore?
+      </h2>
+      <h2 class="h2" atributo="termina-com pelo amor de God">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quis
+        totam, quisquam sapiente commodi aperiam sequi laboriosam beatae
+        impedit. Fugit laboriosam exercitationem praesentium deleniti porro, ab
+        eaque animi laborum delectus?
+      </h2>
+      <h2 class="h2" atributo="contido sereiva xãpreta">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+        laudantium repellat quis ipsam. Facilis vitae ex excepturi quod quisquam
+        consequuntur libero obcaecati, modi in eveniet sed repellendus quibusdam
+        voluptatibus dolorum!
+      </h2>
     </div>
     <div>
-            <input type="checkbox" checked>
-            <input type="checkbox">
+      <input type="checkbox" checked >
+      <input type="checkbox" >
     </div>
-</body>
+  </body>
 </html>

@@ -95,6 +95,7 @@
     margin-bottom: 20px;
     margin: 20px 0px 0px 200px;
     border-radius: 5%;
+    box-shadow: black 1px 5px 1px 1px;
   }
   .p2{
     background: url("/HTML/Aulas Udemy/Aula 16 - Unidades de medida/Images/Background-Features.jpg");

@@ -1,107 +1,134 @@
 *{
-    padding:0;
-    margin:0;
+  padding:0;
+  margin:0;
+}
+  html{
+      scroll-behavior: smooth;
   }
-    html{
-        scroll-behavior: smooth;
-    }
-    .iLogo-TechVanguard{
-      height: 60px;
-      width: 60px;
-      float: right;
-      margin-right: 30px;
-      margin-top: 3px;
-      filter: brightness(0.4)
-    }
-    .conteiner{
-      height: 71px;
-      width: 100%;
-      background-color:#ECD444;
-      align-items: center;
-      position:fixed;
-      z-index: 2;
-    }
-    .conteiner-menu{
-      display: flex;
-      list-style: none;
-    }
-    .conteiner-menu li a{
-      text-transform: uppercase;
-      text-decoration: none;
-      color: black;
-      padding: 24px;
-      padding-left: 30px;
-      display: block;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .conteiner-menu a:hover{
-    background-color: #C6AC33;
+  .iLogo-TechVanguard{
+    height: 60px;
+    width: 60px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 3px;
+    filter: brightness(0.4)
+  }
+  .conteiner{
+    height: 71px;
+    width: 100%;
+    background-color:#ECD444;
+    align-items: center;
+    position:fixed;
+    z-index: 2;
+  }
+  .conteiner-menu{
+    display: flex;
+    list-style: none;
+  }
+  .conteiner-menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    padding-left: 30px;
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .conteiner-menu a:hover{
+  background-color: #C6AC33;
+  transition: all 200ms ease-in-out;
+  }
+  .Menu-nav{
+    background-color:#808080;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .Menu-nav p{
+    margin-top: 70px;
+  }
+  .Menu-nav p a{
+    text-decoration: none;
+    padding: 4px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .Menu-nav p a:hover{
     transition: all 200ms ease-in-out;
-    }
-    .Menu-nav{
-      background-color:#808080;
-      height: 100px;
-      display: flex;
-      align-items: center;
-    }
-    .Menu-nav p{
-      margin-top: 70px;
-    }
-    .Menu-nav p a{
-      text-decoration: none;
-      padding: 4px;
-      padding-left: 45px;
-      padding-right: 45px;
-      color: white;
-      display: block;
-      text-transform: uppercase;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .Menu-nav p a:hover{
-      transition: all 200ms ease-in-out;
-      background-color:rgb(166, 161, 161);
-    }
-    .Features{
-      background-color:black;
-      height: 100vh;
-      color: white;
-      text-align: left;
-      text-indent: 15px;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: 18px;
-    }
-    .Features img{
-      height: 550px;
-      width: auto;
-      float: right;
-      filter: brightness(0.4);
-      padding-top: 60px;
-      z-index: 1;
+    background-color:rgb(166, 161, 161);
   }
-  .text-Features{
-    padding-top: 71px;
+  .Features{
+    background: url("/HTML/Aulas Udemy/Aula 16 - Unidades de medida/Images/Background-Plans.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: left;
+    text-indent: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
   }
-    .text-Features ol {
-      padding-left: 20px; 
-      list-style-position: inside; 
-    }
-    #iconfira{
-      width: 220px;
-      height: 70px;
-      background-color:#ECD444;
-      margin-bottom: 20px;
-      margin: 10px 0px 0px 200px;
-    }
-    .p2{
-      background-color:#6E2594;
-      height: 100vh;
-      color: #FFFFFF;
-    }
-    .p3{
-      background-color:#FFFFFF;
-      height: 100vh;
-    }
-    .p4{
-      background-color:#6E2594;
-      height: 100vh;
-    }
+  .Features img{
+    height: 550px;
+    width: auto;
+    float: right;
+    padding-top: 60px;
+    z-index: 1;
+}
+.text-Features{
+  padding-top: 71px;
+}
+.text-Features h1{
+  color: #ECD444;
+}
+  .text-Features ol {
+    padding: 15px 20px 15px 5px;
+    list-style-position: inside; 
+  }
+  #iconfira{
+    width: 220px;
+    height: 70px;
+    background-color:#ECD444;
+    margin-bottom: 20px;
+    margin: 20px 0px 0px 200px;
+    border-radius: 5%;
+  }
+  .p2{
+    background: url("/HTML/Aulas Udemy/Aula 16 - Unidades de medida/Images/Background-Features.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+  }
+  .p2 h1{
+    color: #ECD444;
+    text-align: center;
+    padding-top: 70px;
+    position: absolute;
+    width: 100%;
+  }
+  .p2 .plan01,.plan02,.plan03{
+    background-color: red;
+    width: 300px;
+    height: 400px;
+    margin: 200px 100px;
+    text-align: center;
+  }
+  .p3{
+    background-color:#FFFFFF;
+    height: 100vh;
+  }
+  .p4{
+    background-color:#6E2594;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .p4 h1{
+    color: #ECD444;
+    text-align: center;
+    padding-top: 70px;
+  }

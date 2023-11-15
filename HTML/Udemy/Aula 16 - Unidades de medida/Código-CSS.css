@@ -61,7 +61,7 @@
     background-color:rgb(166, 161, 161);
   }
   .Features{
-    background: url("/HTML/Aulas Udemy/Aula 16 - Unidades de medida/Images/Background-Plans.jpg");
+    background: url("Images/Background-Plans.jpg");
     background-size: cover;
     height: 100vh;
     color: white;
@@ -96,7 +96,7 @@
     box-shadow: black 1px 5px 1px 1px;
   }
   .p2{
-    background: url("/HTML/Aulas Udemy/Aula 16 - Unidades de medida/Images/Background-Features.jpg");
+    background: url("Images/Background-Features.jpg");
     background-size: cover;
     height: 100vh;
     color: #FFFFFF;

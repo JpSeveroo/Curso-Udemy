@@ -118,10 +118,23 @@
     text-align: center;
     box-shadow: #ECD444 7px 5px 1px 1px;
   }
+  .p2 .plan01 #iComprar{
+    padding: 15px 70px 15px 70px;
+    background-color: #ECD444;
+  }
+  .p2 .plan02 #iComprar{
+    padding: 15px 70px 15px 70px;
+    background-color: #ECD444;
+  }
+  .p2 .plan03 #iComprar{
+    padding: 15px 70px 15px 70px;
+    background-color: #ECD444;
+  }
   .p3{
     background-color:#FFFFFF;
     height: 100vh;
   }
+
   .p4{
     background-color:#6E2594;
     height: 100vh;
